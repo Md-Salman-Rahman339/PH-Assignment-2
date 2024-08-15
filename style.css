@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.inter-text {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+  @import url('https://www.cdnfonts.com/miama.font');
+  .miama-font {
+    font-family: 'Miama', sans-serif;
+    font-weight:100;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    background: rgb(17, 17, 17);
+    color: white;
+}
+.default{
+    color:rgb(230, 83, 60);
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 35px;
+}
+.nav-about{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+    gap: 30px;
+}
+@media screen and (max-width: 576px){
+    .navbar{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.banner{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+.banner-desc{
+
+}
